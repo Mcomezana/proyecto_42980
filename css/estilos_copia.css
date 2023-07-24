@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    font-weight: bold;
+
+}
+
+/*me costo ordenar, ya que a medida que iba aplicando estilos a las paginas iba agregando las clases*/
+
+.listaNav {
+    list-style: none;
+}
+
+.listaItem {
+    display: inline-block;
+    padding-right: 3rem;
+
+
+}
+
+.listaItem a {
+    text-decoration: none;
+    color: #212121;
+
+}
+
+header {
+    background-color: #FF9800;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #ffe0b2;
+}
+
+.contenedorTitulosPrinc {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.TitulosPrinc h2 {
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.padre {
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+
+}
+
+.padre .hijo {
+    width: 530px;
+    height: 530px;
+    border-radius: 5px;
+
+}
+
+.hijo img {
+    width: 95%;
+    height: 60%;
+    object-fit: cover;
+
+
+}
+
+.parrafoPrincipal {
+    color: #212121;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    background-color: #CDDC39;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.parrafoAc {
+    color: #212121;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+
+
+}
+
+.divImgAc {
+    width: 450px;
+    height: 300px;
+
+
+}
+
+
+.galeriaActividad {
+    width: 100%;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.galeriaActividad .hijoGaleriaActividad {
+    width: 350px;
+    height: 500px;
+    background-color: #CDDC39;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.hijoGaleriaActividad img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+}
+
+
+.tituloSecundario {
+
+    color: #212121;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.colorTabla {
+    background-color: #FFE0B2;
+}
+
+.divImg {
+    width: 400px;
+    height: 500px;
+    background-color: #f57c00;
+    border: 1px solid #e9c199;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.divImg img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.margin {
+
+    margin-left: 1rem;
+}
+
+.footer {
+
+    background-color: #bdbdbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.wsp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+.fa-whatsapp {
+    color: rgb(35, 148, 35);
+    font-size: 3rem;
+
+}
+
+.fa-instagram {
+    color: rgb(240, 34, 130);
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: rgb(47, 47, 231);
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.fa-twitter {
+    color: rgb(62, 143, 236);
+    font-size: 2rem;
+    margin: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .contenedorTitulosPrinc h1 {
+        font-size: 2rem;
+
+    }
+
+    .parrafoPrincipal {
+        background-color: #FFE0B2
+    }
+
+    .video {
+        height: 200px;
+        width: 200px;
+    }
+
+    .paddingContac {
+        padding-bottom: 1rem;
+    }
+
+    .galeriaActividad .hijoGaleriaActividad {
+
+        background-color: #f5c57c;
+        margin-left: 5rem;
+
+    }
+}
