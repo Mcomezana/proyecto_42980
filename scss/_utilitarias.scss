@@ -1,0 +1,85 @@
+.contenedorTitulosPrinc {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.parrafoPrincipal {
+    color: $color-texto-primario;
+    font-size: $fuente-pequena;
+    font-weight: 400;
+    font-family: $tipografia_general;
+    background-color: $color-acentuar;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.parrafoAc {
+    color: $color-texto-primario;
+    font-size: $fuente-pequena;
+    font-weight: 400;
+    font-family: $tipografia_general;
+    text-align: justify;
+}
+
+.divImgAc {
+    width: 450px;
+    height: 300px;
+}
+
+.parrafoContacto {
+    background-color: $color-acentuar;
+    color: $color-texto-primario;
+    font-size: $fuente-pequena;
+    font-weight: 700;
+    font-family: $tipografia_general;
+    text-align: center;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.tituloSecundario {
+    color: $color-texto-primario;
+    font-size: $fuente-normal;
+    font-weight: 500;
+    font-family: $tipografia_general;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.colorTabla {
+    background-color: $color-primario-claro;
+}
+
+.margin {
+    margin-left: 1rem;
+}
+
+.wsp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fa-whatsapp {
+    color: rgb(35, 148, 35);
+    font-size: $fuente-grande;
+}
+
+.fa-instagram {
+    color: rgb(240, 34, 130);
+    font-size: $fuente-normal;
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: rgb(47, 47, 231);
+    font-size: $fuente-normal;
+    margin: 10px;
+}
+
+.fa-twitter {
+    color: rgb(62, 143, 236);
+    font-size: $fuente-normal;
+    margin: 10px;
+}

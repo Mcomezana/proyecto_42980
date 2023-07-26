@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: $color-primario;
+}
+
+body {
+    font-family: $tipografia_general;
+    background-color: $color-primario-claro;
+}

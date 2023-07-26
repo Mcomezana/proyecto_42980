@@ -1,0 +1,28 @@
+.footer {
+
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $tipografia_general;
+
+    .listaNav {
+        list-style: none;
+
+        .listaItem {
+            display: inline-block;
+            padding-right: 3rem;
+
+            a {
+                text-decoration: none;
+                color: $color-texto-primario;
+
+                &:hover {
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+}
