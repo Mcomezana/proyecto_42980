@@ -1,0 +1,33 @@
+/*nesting*/
+.contenedorError {
+    @include flex-direction-content (column, center);
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    .tituloError {
+            color: #212121;
+            font-weight: 700;
+            font-family: 'Mulish', sans-serif;
+            margin-top: 10px;
+        }
+    .tituloErrorSec {
+            color: #212121;
+            font-weight: 500;
+            font-family: 'Mulish', sans-serif;
+    }
+    .tituloErrorSec {
+            color: #212121;
+            font-weight: 500;
+            font-family: 'Mulish', sans-serif;
+    }
+    .parrafoError {
+            color: #212121;
+            font-weight: 400;
+            font-family: 'Mulish', sans-serif;
+            margin: 10px;
+    }
+    .errorImg {
+            @include sizes (400px, 400px);
+    
+    }
+}

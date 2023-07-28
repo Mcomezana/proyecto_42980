@@ -8,43 +8,37 @@
 .parrafoPrincipal {
     color: $color-texto-primario;
     font-size: $fuente-pequena;
-    font-weight: 400;
-    font-family: $tipografia_general;
-    background-color: $color-acentuar;
+    font-weight: map-get($fuentes, medium );
+    font-family: $tipografia_general; 
     margin-bottom: 1rem;
     border-radius: 5px;
 }
 .parrafoAc {
     color: $color-texto-primario;
     font-size: $fuente-pequena;
-    font-weight: 400;
+    font-weight: map-get($fuentes, normal );  
     font-family: $tipografia_general;
     text-align: justify;
 }
-
+/*mixins*/
 .divImgAc {
-    width: 450px;
-    height: 300px;
+    @include sizes (450px, 300px);
 }
-
+/*mpas*/
 .parrafoContacto {
-    background-color: $color-acentuar;
     color: $color-texto-primario;
     font-size: $fuente-pequena;
-    font-weight: 700;
+    font-weight: map-get($fuentes,medium );
     font-family: $tipografia_general;
-    text-align: center;
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    text-align: start;
 }
 .tituloSecundario {
     color: $color-texto-primario;
     font-size: $fuente-normal;
-    font-weight: 500;
+    font-weight: map-get($fuentes, medium);
     font-family: $tipografia_general;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .colorTabla {

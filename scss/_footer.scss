@@ -1,3 +1,4 @@
+/*nesting*/
 .footer {
 
     background-color: $color-footer;
@@ -19,7 +20,7 @@
                 color: $color-texto-primario;
 
                 &:hover {
-                    font-weight: bold;
+                    font-weight: map-get($fuentes,bold);
 
                 }
             }

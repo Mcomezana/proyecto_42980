@@ -1,6 +1,6 @@
+/*nesting-mixins*/
 .divImg {
-    width: 400px;
-    height: 500px;
+    @include sizes (400px, 500px);
     background-color: $color-primario-oscuro;
     border: 1px solid $color-img;
     border-radius: 5px 5px 5px 5px;
@@ -10,8 +10,7 @@
     margin-bottom: 20px;
 
     img {
-        width: 95%;
-        height: 95%;
+        @include sizes (95%, 95%);
         object-fit: cover;
         border-radius: 20px 20px 20px 20px;
 

@@ -10,3 +10,11 @@ $tipografia_general: 'Mulish', sans-serif;
 $fuente-normal: 2rem;
 $fuente-pequena: 1rem;
 $fuente-grande: 3rem;
+
+/*maps*/
+$fuentes: (
+    light: 300,
+    normal: 400,
+    medium: 500,
+    bold: 700
+);

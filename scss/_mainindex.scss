@@ -1,35 +1,21 @@
-.padre {
-
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-
-    .hijo {
-        width: 530px;
-        height: 530px;
-        border-radius: 5px;
-
-        img {
-            width: 95%;
-            height: 60%;
+/*nesting-media queries*/
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+    .carousel-item .imgAdaptado {
+            @include sizes (100%, 100%);
             object-fit: cover;
-
-
         }
-
-    }
-
-
 }
 @media screen and (min-width:0px) and (max-width: 768px) {
     .contenedorTitulosPrinc h1 {
         font-size: $fuente-normal;
     }
-
-    .parrafoPrincipal {
-        background-color: $color-primario-claro;
-    }
-
+    .carousel-item {
+            @include sizes (100%, 100%);
+        }  
+    .carousel-item .imgAdaptado {
+            @include sizes (100%, 100%);
+            object-fit: cover;
+        }
 }
