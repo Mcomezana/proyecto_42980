@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    width: 100%;
 }
 .parrafoPrincipal {
     color: $color-texto-primario;
@@ -56,15 +57,14 @@
 }
 
 .fa-whatsapp {
-    color: rgb(35, 148, 35);
+    color: rgb(61, 163, 61);
     font-size: $fuente-grande;
 }
 
 .fa-instagram {
-    color: rgb(240, 34, 130);
-    font-size: $fuente-normal;
+    font-size: $fuente-normal;    
     margin: 10px;
-}
+}    
 
 .fa-facebook {
     color: rgb(47, 47, 231);

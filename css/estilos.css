@@ -12,7 +12,7 @@ header {
 
 body {
   font-family: "Mulish", sans-serif;
-  background-color: #ffe0b2;
+  background-image: radial-gradient(circle, #ffe0b2, #fdd9a4, #fad397, #f8cc89, #f5c57c);
 }
 
 .contenedorTitulosPrinc {
@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  width: 100%;
 }
 
 .parrafoPrincipal {
@@ -79,12 +80,11 @@ body {
 }
 
 .fa-whatsapp {
-  color: rgb(35, 148, 35);
+  color: rgb(61, 163, 61);
   font-size: 3rem;
 }
 
 .fa-instagram {
-  color: rgb(240, 34, 130);
   font-size: 2rem;
   margin: 10px;
 }
@@ -135,7 +135,7 @@ body {
 .divImg {
   width: 400px;
   height: 500px;
-  background-color: #f57c00;
+  background-color: hsl(30, 100%, 48%);
   border: 1px solid #e9c199;
   border-radius: 5px 5px 5px 5px;
   display: flex;
@@ -243,6 +243,11 @@ body {
 }
 .footer .listaNav .listaItem a:hover {
   font-weight: 700;
+}
+
+/*transformacion*/
+.trans:hover {
+  transform: rotate(30deg);
 }
 
 /*# sourceMappingURL=estilos.css.map */
