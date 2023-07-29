@@ -1,0 +1,22 @@
+.parrafoAc {
+    color: $color-texto-primario;
+    font-size: $fuente-pequena;
+    font-weight: map-get($fuentes, normal);
+    font-family: $tipografia_general;
+    text-align: justify;
+}
+/*mixins*/
+.divImgAc {    
+    @include sizes(450px,300px);
+}
+        
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .parrafoAc{
+        padding-top: 20px;
+    }
+    .divImgAc {
+        width: 100vh;
+        }
+
+}

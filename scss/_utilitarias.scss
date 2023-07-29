@@ -14,18 +14,8 @@
     margin-bottom: 1rem;
     border-radius: 5px;
 }
-.parrafoAc {
-    color: $color-texto-primario;
-    font-size: $fuente-pequena;
-    font-weight: map-get($fuentes, normal );  
-    font-family: $tipografia_general;
-    text-align: justify;
-}
-/*mixins*/
-.divImgAc {
-    @include sizes (450px, 300px);
-}
-/*mpas*/
+
+/*maps*/
 .parrafoContacto {
     color: $color-texto-primario;
     font-size: $fuente-pequena;
@@ -41,7 +31,10 @@
     padding-top: 2rem;
     padding-bottom: 0.5rem;
 }
-
+.destacar{
+    color: $color-primario-oscuro!important;
+    font-weight: bold ;
+}
 .colorTabla {
     background-color: $color-primario-claro;
 }
@@ -51,13 +44,22 @@
 }
 
 .wsp {
+    width: 55px;
+    height: 50px;
+    background-color: rgb(61, 163, 61);
+    border-radius: 10px;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .fa-whatsapp {
-    color: rgb(61, 163, 61);
+    color: rgb(242, 248, 242);
     font-size: $fuente-grande;
 }
 

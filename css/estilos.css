@@ -15,6 +15,7 @@ body {
   background-image: radial-gradient(circle, #ffe0b2, #fdd9a4, #fad397, #f8cc89, #f5c57c);
 }
 
+/*mixins*/
 .contenedorTitulosPrinc {
   text-align: center;
   width: 60%;
@@ -33,21 +34,7 @@ body {
   border-radius: 5px;
 }
 
-.parrafoAc {
-  color: #212121;
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: "Mulish", sans-serif;
-  text-align: justify;
-}
-
-/*mixins*/
-.divImgAc {
-  width: 450px;
-  height: 300px;
-}
-
-/*mpas*/
+/*maps*/
 .parrafoContacto {
   color: #212121;
   font-size: 1rem;
@@ -65,6 +52,11 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.destacar {
+  color: hsl(30, 100%, 48%) !important;
+  font-weight: bold;
+}
+
 .colorTabla {
   background-color: #ffe0b2;
 }
@@ -74,13 +66,22 @@ body {
 }
 
 .wsp {
+  width: 55px;
+  height: 50px;
+  background-color: rgb(61, 163, 61);
+  border-radius: 10px;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .fa-whatsapp {
-  color: rgb(61, 163, 61);
+  color: rgb(242, 248, 242);
   font-size: 3rem;
 }
 
@@ -183,6 +184,28 @@ body {
   .galeriaActividad .hijoGaleriaActividad {
     background-color: #f5c57c;
     margin-left: 5rem;
+  }
+}
+.parrafoAc {
+  color: #212121;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+}
+
+/*mixins*/
+.divImgAc {
+  width: 450px;
+  height: 300px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .parrafoAc {
+    padding-top: 20px;
+  }
+  .divImgAc {
+    width: 100vh;
   }
 }
 /*nesting*/
