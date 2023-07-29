@@ -102,6 +102,12 @@ body {
   margin: 10px;
 }
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+}
 .navbar-light .navbar-nav .nav-link.colorIcons {
   color: #757575;
   font-weight: 700;
@@ -183,7 +189,7 @@ body {
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .galeriaActividad .hijoGaleriaActividad {
     background-color: #f5c57c;
-    margin-left: 5rem;
+    /*margin-left: 5rem;*/
   }
 }
 .parrafoAc {
