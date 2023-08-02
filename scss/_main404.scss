@@ -27,7 +27,6 @@
             margin: 10px;
     }
     .errorImg {
-            @include sizes (400px, 400px);
-    
+            @include sizes (400px, 400px);   
     }
 }

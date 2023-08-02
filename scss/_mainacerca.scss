@@ -9,8 +9,6 @@
 .divImgAc {    
     @include sizes(450px,300px);
 }
-        
-
 @media screen and (min-width:0px) and (max-width: 768px) {
     .parrafoAc{
         padding-top: 20px;
