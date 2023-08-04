@@ -1,18 +1,18 @@
 .contenedorTitulosPrinc {
-    text-align: center;
+    
     width: 60%;
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
     width: 100%;
 }
-.parrafoPrincipal {
+
+.contenedorTitulosPrinc .parrafoPrincipal{
     color: $color-texto-primario;
-    font-size: $fuente-pequena;
-    font-weight: map-get($fuentes, medium );
+    font-size: $fuente-normal;    
+    font-weight: map-get($fuentes, bold);
     font-family: $tipografia_general; 
-    margin-bottom: 1rem;
-    border-radius: 5px;
+    text-align: justify;
 }
 
 /*maps*/
