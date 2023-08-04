@@ -16,23 +16,7 @@ body {
 }
 
 /*mixins*/
-.contenedorTitulosPrinc {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  width: 100%;
-}
 
-.parrafoPrincipal {
-  color: #212121;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Mulish", sans-serif;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-}
 
 /*maps*/
 .parrafoContacto {
@@ -124,9 +108,7 @@ body {
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
-  .contenedorTitulosPrinc h1 {
-    font-size: 2rem;
-  }
+
   .carousel-item {
     width: 100%;
     height: 100%;
