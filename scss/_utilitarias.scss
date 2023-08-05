@@ -1,21 +1,26 @@
 
 .contenedorTitulosPrinc {
-    background-color:$color-acentuar ;
+    
     width: 60%;
     margin: 0 auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    width: 100%;
+    
 }
 
  .parrafoPrincipal{
     color: $color-texto-primario;
-    font-size: $fuente-normal ;    
-    font-weight: map-get($fuentes, medium);
+    font-size: $fuente-normal;    
+    font-weight: map-get($fuentes, normal);
     font-family: $tipografia_general; 
-    text-align: center;
+    text-align: justify;
  }
-
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .mapa {
+        width: auto;
+        height: auto;
+    }
+}
 /*maps*/
 .parrafoContacto {
     color: $color-texto-primario;

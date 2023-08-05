@@ -12,10 +12,14 @@
         font-size: $fuente-normal;
     }
     .carousel-item {
-            @include sizes (100%, 100%);
-        }  
+        @include sizes (100%, 100%);
+    }  
     .carousel-item .imgAdaptado {
-            @include sizes (100%, 100%);
-            object-fit: cover;
-        }
+        @include sizes (100%, 100%);
+        object-fit: cover;
+    }
+    .contenedorTitulosPrinc .parrafoPrincipal {       
+        font-size: $fuente-pequena;
+    }
+    
 }

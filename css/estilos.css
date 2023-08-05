@@ -16,6 +16,27 @@ body {
 }
 
 /*mixins*/
+.contenedorTitulosPrinc {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.parrafoPrincipal {
+  color: #212121;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .mapa {
+    width: auto;
+    height: auto;
+  }
+}
 /*maps*/
 .parrafoContacto {
   color: #212121;
@@ -99,7 +120,6 @@ body {
   height: 100vh;
   width: 100%;
 }
-
 .carousel-item .carousel-item .imgAdaptado {
   width: 100%;
   height: 100%;
@@ -107,6 +127,9 @@ body {
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
+  .TitulosPrinc h1 {
+    font-size: 2rem;
+  }
   .carousel-item {
     width: 100%;
     height: 100%;
@@ -115,6 +138,9 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .contenedorTitulosPrinc .parrafoPrincipal {
+    font-size: 1rem;
   }
 }
 /*nesting-mixins*/
@@ -129,7 +155,6 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-
 .divImg img {
   width: 95%;
   height: 95%;
@@ -146,7 +171,6 @@ body {
   gap: 2rem;
   justify-content: space-between;
 }
-
 .galeriaActividad .hijoGaleriaActividad {
   display: flex;
   flex-direction: column;
@@ -159,7 +183,6 @@ body {
   padding: 1rem;
   margin: 1rem;
 }
-
 .galeriaActividad .hijoGaleriaActividad img {
   width: 80%;
   height: 60%;
@@ -204,33 +227,28 @@ body {
   padding: 1rem;
   margin: 1rem;
 }
-
 .contenedorError .tituloError {
   color: #212121;
   font-weight: 700;
   font-family: "Mulish", sans-serif;
   margin-top: 10px;
 }
-
 .contenedorError .tituloErrorSec {
   color: #212121;
   font-weight: 500;
   font-family: "Mulish", sans-serif;
 }
-
 .contenedorError .tituloErrorSec {
   color: #212121;
   font-weight: 500;
   font-family: "Mulish", sans-serif;
 }
-
 .contenedorError .parrafoError {
   color: #212121;
   font-weight: 400;
   font-family: "Mulish", sans-serif;
   margin: 10px;
 }
-
 .contenedorError .errorImg {
   width: 400px;
   height: 400px;
@@ -245,21 +263,17 @@ body {
   align-items: center;
   font-family: "Mulish", sans-serif;
 }
-
 .footer .listaNav {
   list-style: none;
 }
-
 .footer .listaNav .listaItem {
   display: inline-block;
   padding-right: 3rem;
 }
-
 .footer .listaNav .listaItem a {
   text-decoration: none;
   color: #212121;
 }
-
 .footer .listaNav .listaItem a:hover {
   font-weight: 700;
 }
@@ -268,7 +282,5 @@ body {
 .trans:hover {
   transform: rotate(30deg);
 }
-
-
 
 /*# sourceMappingURL=estilos.css.map */
